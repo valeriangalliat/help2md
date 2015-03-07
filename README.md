@@ -21,3 +21,6 @@ Examples
 --------
 
 See the [tests](test) for example parsing.
+
+You can also look [gogs-migrate's makefile](https://github.com/valeriangalliat/gogs-migrate/blob/master/Makefile)
+which is using help2md to update it's readme in place.
