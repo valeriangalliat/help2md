@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+readonly PROGDIR=$(dirname "$0")
+readonly FILE=$1; shift
+
+"$PROGDIR/help2md-tag" "$FILE" > "$FILE.help2md.tmp"
+mv "$FILE.help2md.tmp" "$FILE"

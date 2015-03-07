@@ -1,0 +1,19 @@
+## Usage
+
+```
+foo [options] <bar>
+```
+
+### Arguments
+
+Name | Description
+---- | -----------
+`<bar>` | Yo dawg.
+
+### Options
+
+Name | Description
+---- | -----------
+`-h, --help` | Show help.
+`-V, --version` | Show version.
+`-t, --troll` | Troll.

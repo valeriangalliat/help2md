@@ -1,0 +1,27 @@
+{
+  "name": "help2md",
+  "version": "1.0.0",
+  "description": "Convert command help string to Markdown.",
+  "homepage": "https://github.com/valeriangalliat/help2md",
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
+  },
+  "author": {
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  },
+  "bin": [
+    "between-tags",
+    "help2md",
+    "help2md-in-place",
+    "help2md-tags"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeriangalliat/help2md"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}

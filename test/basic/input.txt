@@ -1,0 +1,9 @@
+Usage: foo [options] <bar>
+
+Arguments:
+  <bar>  Yo dawg.
+
+Options:
+  -h, --help     Show help.
+  -V, --version  Show version.
+  -t, --troll    Troll.
