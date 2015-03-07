@@ -3,9 +3,9 @@
 # Initialize usage section (and optional first usage line).
 /^Usage:/ {
     usage = 1
-    sub(/: +/, "\n\n```\n", $0)
-    sub(/:$/, "\n\n```", $0)
-    $0 = "## " $0
+    sub(/^Usage: +/, "\n```\n", $0)
+    sub(/^Usage:$/, "\n```", $0)
+    $0 = "Usage\n-----\n" $0
 }
 
 # Initialize section (close usage code if after usage).
