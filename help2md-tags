@@ -2,5 +2,5 @@
 
 readonly PROGDIR=$(dirname "$0")
 
-"$PROGDIR/help2md" \
+(echo; "$PROGDIR/help2md"; echo) \
   | "$PROGDIR/between-tags" '<!-- BEGIN USAGE -->' '<!-- END USAGE -->' "$@"
