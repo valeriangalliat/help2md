@@ -1,6 +1,6 @@
 {
   "name": "help2md",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert command help string to Markdown.",
   "homepage": "https://github.com/valeriangalliat/help2md",
   "license": {
