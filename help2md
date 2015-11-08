@@ -9,7 +9,7 @@
 }
 
 # Initialize section (close usage code if after usage).
-/^\w+:$/ {
+/^[a-zA-Z_0-9]+:$/ {
     if (usage) {
       usage = 0
       prev = prev "```\n"
