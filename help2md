@@ -1,4 +1,4 @@
-#!/usr/bin/awk -f
+#!/usr/bin/env awk -f
 
 # Initialize usage section (and optional first usage line).
 /^Usage:/ {
