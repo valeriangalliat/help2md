@@ -1,4 +1,4 @@
 #!/bin/sh -e
 
-readonly PROGDIR=$(dirname "$(readlink "$0")")
+readonly PROGDIR=$(dirname "$(readlink -f "$0")")
 awk -f "$PROGDIR/help2md.awk" "$@"
