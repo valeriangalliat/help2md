@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-readonly PROGDIR=$(dirname "$(readlink -f "$0")")
+readonly PROGDIR=$(dirname "$(readlink "$0")")
 
 (echo; "$PROGDIR/help2md"; echo) \
   | "$PROGDIR/between-tags" '<!-- BEGIN USAGE -->' '<!-- END USAGE -->' "$@"
